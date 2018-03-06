@@ -35,4 +35,11 @@ body {
 	    background-size: cover;
     }
     
-    
+/* CONTAINERS */
+
+#containerAll {
+    overflow: overlay;
+    margin: 0;
+    padding: 0;
+}
+
