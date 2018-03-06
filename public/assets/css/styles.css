@@ -43,3 +43,9 @@ body {
     padding: 0;
 }
 
+/* MAIN ROW */
+
+#mainRow {
+    height: 100vh;
+}
+
