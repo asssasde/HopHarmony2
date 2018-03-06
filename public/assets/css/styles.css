@@ -69,3 +69,13 @@ body {
     left: -220px;
     margin: 20px 0;
 }
+
+/* FORM COLUMN */
+
+#formColumn {
+    background-color: rgba(153, 146, 137, 0.25);
+    padding: 30px 35px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
