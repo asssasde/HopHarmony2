@@ -1,0 +1,38 @@
+/*Creating our own CSS Style Sheeet for the project*/
+
+/*Styles that apply to the entire page*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    COLOR: #001a27;
+}
+
+/* BACKGROUND VIDEO + OVERLAY + TEXT */
+
+#videoOverlay {
+    background: #ffffff;
+    opacity: 0.75;
+    position: absolute;
+    z-index: -50;
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+	#backgroundVideo {
+	    position: fixed;
+	    top: 50%;
+	    left: 50%;
+	    min-width: 100%;
+	    min-height: 100%;
+	    width: auto;
+	    height: auto;
+	    z-index: -100;
+	    -webkit-transform: translateX(-50%) translateY(-50%);
+	    transform: translateX(-50%) translateY(-50%);
+	    background: url(../img/backgroundImg01.jpg) no-repeat;
+	    background-size: cover;
+    }
+    
+    
