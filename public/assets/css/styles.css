@@ -197,3 +197,11 @@ BEGIN RESULTS PAGE CSS
     #hopLogo {
         max-width: 45% !important;
     }
+    #jumboContainer hr {
+        background-color: #99928a;
+        height: 5px;
+        border: none;
+        width: 12.5%;
+        left: -220px;
+        margin: 20px 0;
+    }
