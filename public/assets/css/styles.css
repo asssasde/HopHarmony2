@@ -231,3 +231,24 @@ BEGIN RESULTS PAGE CSS
         padding-top: 80px;
         padding-bottom: 130px;
     }
+    #bunniesInnerContainer h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 4px;
+        color: #f3e9de;
+        margin-bottom: 40px;
+    }
+    #bunniesInnerContainer hr {
+        background-color: #f99d2a;
+        align-self: center;
+        max-width: 100px;
+        margin-bottom: 50px;
+    }
+    .bunCards {
+        margin-bottom: 60px;
+        border: none;
+        font-size: 14px;
+        background: white;
+    }
