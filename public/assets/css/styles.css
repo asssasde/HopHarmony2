@@ -115,3 +115,7 @@ option {
     height: 20px;
     position: absolute;
 }
+#formColumn #languages,
+#activities {
+    height: 44px;
+}
