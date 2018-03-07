@@ -286,3 +286,18 @@ BEGIN RESULTS PAGE CSS
         font-weight: 100;
         color: #99928a;
     }
+    .bunResSpan2 {
+        font-weight: 100;
+        color: #99928a;
+    }
+    .selectBunBtns {
+        font-weight: 100;
+        font-size: 13px;
+        letter-spacing: 2px;
+        background-color: #f99d2a;
+        border: none;
+        border-radius: 0;
+        padding: 8px 30px;
+        margin-top: 1rem;
+        margin-bottom: 10px;
+    }
