@@ -32,3 +32,13 @@ function (email, password, done ){
 }
 
 ));
+
+passport.serializeUser(function(user,cb){
+    cd(null, user);
+});
+
+passport.deserializeUser(function(user,cb){
+    cb(null, user);
+})
+
+module.exports = passport;
