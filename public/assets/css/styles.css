@@ -130,3 +130,6 @@ option {
     border: none;
     margin: 20px auto;
 }
+#formColumn #customRadios {
+    margin-top: 10px;
+}
