@@ -79,3 +79,10 @@ body {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+#formColumn h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #001a27;
+    margin-bottom: 0;
+}
