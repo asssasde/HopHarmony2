@@ -191,3 +191,6 @@ BEGIN RESULTS PAGE CSS
         margin-bottom: 0px;
         z-index: 0;
     }
+    #jumboContainer {
+        z-index: -10;
+    }
