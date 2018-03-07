@@ -281,3 +281,8 @@ BEGIN RESULTS PAGE CSS
         font-size: 14px;
         margin-bottom: 25px;
     }
+    .bunResSpan {
+        margin-left: 5px;
+        font-weight: 100;
+        color: #99928a;
+    }
