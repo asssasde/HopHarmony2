@@ -266,3 +266,8 @@ BEGIN RESULTS PAGE CSS
         max-width: 160px;
         max-height: 160px;
     }
+    .BunBodies {
+        background: none;
+        padding: 1.25rem;
+        padding-top: 4rem;
+    }
