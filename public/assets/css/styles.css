@@ -111,3 +111,7 @@ option {
     margin-top: 15px;
     margin-bottom: 0;
 }
+#formColumn button img {
+    height: 20px;
+    position: absolute;
+}
