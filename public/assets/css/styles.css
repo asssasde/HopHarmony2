@@ -3,301 +3,350 @@
 /*Styles that apply to the entire page*/
 
 body {
-        font-family: 'Montserrat', sans-serif;
-        COLOR: #001a27;
-    }
+    font-family: 'Montserrat', sans-serif;
+    COLOR: #001a27;
+}
 
-    /* BACKGROUND VIDEO + OVERLAY + TEXT */
+/* BACKGROUND VIDEO + OVERLAY + TEXT */
 
-    #videoOverlay {
-        background: #ffffff;
-        opacity: 0.75;
-        position: absolute;
-        z-index: -50;
-        text-align: center;
-        margin: 0%;
-        height: 100%;
-        width: 100%;
-    }
+#videoOverlay {
+    background: #ffffff;
+    opacity: 0.75;
+    position: absolute;
+    z-index: -50;
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
 
-        #backgroundVideo {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -100;
-            -webkit-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
-            background: url(../img/backgroundImg01.jpg) no-repeat;
-            background-size: cover;
-        }
-        
-    /* CONTAINERS */
+#backgroundVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/backgroundImg01.jpg) no-repeat;
+    background-size: cover;
+}
 
-    #containerAll {
-        overflow: overlay;
-        margin: 0;
-        padding: 0;
-    }
+/* CONTAINERS */
 
-    /* MAIN ROW */
+#containerAll {
+    overflow: overlay;
+    margin: 0;
+    padding: 0;
+}
 
-    #mainRow {
-        height: 100vh;
-    }
+/* MAIN ROW */
 
-    /* LOGO COLUMN */
+#mainRow {
+    height: 100vh;
+}
 
-    #logoColumn {
-        font-weight: 300;
-        font-size: 16px;
-        margin-top: 40px;
-        margin-bottom: 15px;
-    }
-    #logoColumn p {
-        margin-bottom: 0;
-    }
+/* LOGO COLUMN */
 
-    #logoColumn hr {
-        background-color: #99928a;
-        height: 5px;
-        border: none;
-        width: 30%;
-        left: -220px;
-        margin: 20px 0;
-    }
+#logoColumn {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
 
-    /* FORM COLUMN */
+#logoColumn p {
+    margin-bottom: 0;
+}
 
-    #formColumn {
-        background-color: rgba(153, 146, 137, 0.25);
-        padding: 30px 35px;
-        font-size: 12px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    #formColumn h1 {
-        font-weight: 900;
-        font-size: 40px;
-        text-transform: uppercase;
-        color: #001a27;
-        margin-bottom: 0;
-    }
-    #formColumn p {
-        line-height: 1.5;
-    }
-    #formColumn .row {
-        margin-bottom: 4px;
-    }
-    #formColumn input,
-    select,
-    option {
-        font-weight: 300;
-        font-size: 12px;
-        height: 40px !important;
-    }
-    #formColumn button {
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 2px;
-        background-color: #f99d2a;
-        border: none;
-        border-radius: 0;
-        padding: 10px 30px;
-        padding-right: 50px;
-        margin-top: 15px;
-        margin-bottom: 0;
-    }
-    #formColumn button img {
-        height: 20px;
-        position: absolute;
-    }
-    #formColumn #languages,
-    #activities {
-        height: 44px;
-    }
-    #formColumn .radio label {
-        font-weight: 300;
-        font-size: 14px;
-    }
-    #formColumn hr {
-        background-color: #62bb46;
-        height: 2px;
-        width: 200px;
-        border: none;
-        margin: 20px auto;
-    }
-    #formColumn #customRadios {
-        margin-top: 10px;
-    }
-    #childrenNo,
-    #petNo,
-    #smokeNo {
-        margin-left: 20px;
-    }
-    .photoButton input[type=file i] {
-        line-height: 40px;
-    }
+#logoColumn hr {
+    background-color: #99928a;
+    height: 5px;
+    border: none;
+    width: 30%;
+    left: -220px;
+    margin: 20px 0;
+}
 
+/* FORM COLUMN */
 
+#formColumn {
+    background-color: rgba(153, 146, 137, 0.25);
+    padding: 30px 35px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
-    /* 
+#formColumn h1 {
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #001a27;
+    margin-bottom: 0;
+}
+
+#formColumn p {
+    line-height: 1.5;
+}
+
+#formColumn .row {
+    margin-bottom: 4px;
+}
+
+#formColumn input,
+select,
+option {
+    font-weight: 300;
+    font-size: 12px;
+    height: 40px !important;
+}
+
+#formColumn button {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #f99d2a;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#formColumn button img {
+    height: 20px;
+    position: absolute;
+}
+
+#formColumn #languages,
+#activities {
+    height: 44px;
+}
+
+#formColumn .radio label {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#formColumn hr {
+    background-color: #62bb46;
+    height: 2px;
+    width: 200px;
+    border: none;
+    margin: 20px auto;
+}
+
+#formColumn #customRadios {
+    margin-top: 10px;
+}
+
+#childrenNo,
+#petNo,
+#smokeNo {
+    margin-left: 20px;
+}
+
+.photoButton input[type=file i] {
+    line-height: 40px;
+}
+
+/* 
 ======================
 BEGIN RESULTS PAGE CSS
 ======================
 */
 
-    /* BACKGROUND VIDEO + OVERLAY + TEXT */
+/* BACKGROUND VIDEO + OVERLAY + TEXT */
 
-    #videoOverlayJumbo {
-        background: #ffffff;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: 0.75;
-        z-index: -99;
-        text-align: center;
-        margin: 0%;
-        height: 100%;
-        width: 100%;
-    }
-    #backgroundVideoJumbo {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        z-index: -102;
-        min-width: 100%;
-    }
-    /* JUMBOTRON */
+#videoOverlayJumbo {
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.75;
+    z-index: -99;
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+}
 
-    #jumbo {
-        position: relative;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-size: cover;
-        border: none;
-        border-radius: 0;
-        font-size: 20px;
-        margin-bottom: 0px;
-        z-index: 0;
-    }
-    #jumboContainer {
-        z-index: -10;
-    }
-    #hopLogo {
-        max-width: 45% !important;
-    }
-    #jumboContainer hr {
-        background-color: #99928a;
-        height: 5px;
-        border: none;
-        width: 12.5%;
-        left: -220px;
-        margin: 20px 0;
-    }
-    #jumboButton {
-        font-weight: 100;
-        font-size: 15px;
-        letter-spacing: 2px;
-        background-color: #f99d2a;
-        border: none;
-        border-radius: 0;
-        padding: 8px 20px;
-        padding-right: 35px;
-        margin-top: 10px;
-        margin-bottom: 0;
-        z-index: 1000;
-    }
-    #jumboButtonImg {
-        height: 20px;
-        position: absolute;
-    }
+#backgroundVideoJumbo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -102;
+    min-width: 100%;
+}
 
-    /* BUNNIES RESULTS */
+/* JUMBOTRON */
 
-    #bunniesFluidContainer {
-        position: absolute;
-        background-color: #001a27;
-        padding-top: 80px;
-        padding-bottom: 130px;
-    }
-    #bunniesInnerContainer h3 {
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 50px;
-        font-weight: 300;
-        letter-spacing: 4px;
-        color: #f3e9de;
-        margin-bottom: 40px;
-    }
-    #bunniesInnerContainer hr {
-        background-color: #f99d2a;
-        align-self: center;
-        max-width: 100px;
-        margin-bottom: 50px;
-    }
-    .bunCards {
-        margin-bottom: 60px;
-        border: none;
-        font-size: 14px;
-        background: white;
-    }
-    .bunHeaders {
-        background-color: #001a27;
-        height: 120px;
-        text-align: center;
-        padding: 0;
-        border-bottom: 5px solid #f99d2a;
-    }
-    .bunHeaders img {
-        background-color: #f99d2a;
-        border-radius: 50%;
-        border: 5px solid #f99d2a;
-        max-width: 160px;
-        max-height: 160px;
-    }
-    .BunBodies {
-        background: none;
-        padding: 1.25rem;
-        padding-top: 4rem;
-    }
-    .BunTitles {
-        text-align: center;
-        color: #f99d2a;
-        font-weight: 300;
-        margin-bottom: 36px;
-    }
-    .BunText {
-        font-size: 14px;
-        margin-bottom: 25px;
-    }
-    .bunResSpan {
-        margin-left: 5px;
-        font-weight: 100;
-        color: #99928a;
-    }
-    .bunResSpan2 {
-        font-weight: 100;
-        color: #99928a;
-    }
-    .selectBunBtns {
-        font-weight: 100;
-        font-size: 13px;
-        letter-spacing: 2px;
-        background-color: #f99d2a;
-        border: none;
-        border-radius: 0;
-        padding: 8px 30px;
-        margin-top: 1rem;
-        margin-bottom: 10px;
-    }
+#jumbo {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+    margin-bottom: 0px;
+    z-index: 0;
+}
+
+#jumboContainer {
+    z-index: -10;
+}
+
+#hopLogo {
+    max-width: 45% !important;
+}
+
+#jumboContainer hr {
+    background-color: #99928a;
+    height: 5px;
+    border: none;
+    width: 12.5%;
+    left: -220px;
+    margin: 20px 0;
+}
+
+#jumboButton {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #f99d2a;
+    border: none;
+    border-radius: 0;
+    padding: 8px 20px;
+    padding-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    z-index: 1000;
+}
+
+#jumboButtonImg {
+    height: 20px;
+    position: absolute;
+}
+
+/* BUNNIES RESULTS */
+
+#bunniesFluidContainer {
+    position: absolute;
+    background-color: #001a27;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+#bunniesInnerContainer h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #f3e9de;
+    margin-bottom: 40px;
+}
+
+#bunniesInnerContainer hr {
+    background-color: #f99d2a;
+    align-self: center;
+    max-width: 100px;
+    margin-bottom: 50px;
+}
+
+.bunCards {
+    margin-bottom: 60px;
+    border: none;
+    font-size: 14px;
+    background: white;
+}
+
+.bunHeaders {
+    background-color: #001a27;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    border-bottom: 5px solid #f99d2a;
+}
+
+.bunHeaders img {
+    background-color: #f99d2a;
+    border-radius: 50%;
+    border: 5px solid #f99d2a;
+    max-width: 160px;
+    max-height: 160px;
+}
+
+.BunBodies {
+    background: none;
+    padding: 1.25rem;
+    padding-top: 4rem;
+}
+
+.BunTitles {
+    text-align: center;
+    color: #f99d2a;
+    font-weight: 300;
+    margin-bottom: 36px;
+}
+
+.BunText {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.bunResSpan {
+    margin-left: 5px;
+    font-weight: 100;
+    color: #99928a;
+}
+
+.bunResSpan2 {
+    font-weight: 100;
+    color: #99928a;
+}
+
+.selectBunBtns {
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: #f99d2a;
+    border: none;
+    border-radius: 0;
+    padding: 8px 30px;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+/* COLORS:
+Orange:
+R=249 G=157 B=42
+#f99d2a
+---
+Green:
+R=98 G=187 B=70
+#62bb46
+---
+Taupe:
+R=153 G=146 B=138
+#99928a
+---
+Sand:
+#f3e9de
+---
+Dark Blue for text
+#001a27
+*/
