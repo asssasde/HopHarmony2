@@ -92,3 +92,10 @@ body {
 #formColumn .row {
     margin-bottom: 4px;
 }
+#formColumn input,
+select,
+option {
+    font-weight: 300;
+    font-size: 12px;
+    height: 40px !important;
+}
