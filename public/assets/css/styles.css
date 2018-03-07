@@ -89,3 +89,6 @@ body {
 #formColumn p {
     line-height: 1.5;
 }
+#formColumn .row {
+    margin-bottom: 4px;
+}
