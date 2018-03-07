@@ -259,3 +259,10 @@ BEGIN RESULTS PAGE CSS
         padding: 0;
         border-bottom: 5px solid #f99d2a;
     }
+    .bunHeaders img {
+        background-color: #f99d2a;
+        border-radius: 50%;
+        border: 5px solid #f99d2a;
+        max-width: 160px;
+        max-height: 160px;
+    }
