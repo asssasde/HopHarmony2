@@ -119,3 +119,7 @@ option {
 #activities {
     height: 44px;
 }
+#formColumn .radio label {
+    font-weight: 300;
+    font-size: 14px;
+}
