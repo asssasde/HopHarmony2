@@ -133,3 +133,8 @@ option {
 #formColumn #customRadios {
     margin-top: 10px;
 }
+#childrenNo,
+#petNo,
+#smokeNo {
+    margin-left: 20px;
+}
