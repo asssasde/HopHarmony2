@@ -218,3 +218,7 @@ BEGIN RESULTS PAGE CSS
         margin-bottom: 0;
         z-index: 1000;
     }
+    #jumboButtonImg {
+        height: 20px;
+        position: absolute;
+    }
