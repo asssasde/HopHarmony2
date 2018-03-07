@@ -99,3 +99,15 @@ option {
     font-size: 12px;
     height: 40px !important;
 }
+#formColumn button {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #f99d2a;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    padding-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
