@@ -1,6 +1,7 @@
 // Requiring necessary npm packages
-var express = require("express");
-var bodyParser = require("body-parser");
+const express = require("express");
+const bodyParser = require("body-parser");
+const session = require("express-session");
 
 
 // Bring in the sequelize models (database)
@@ -8,7 +9,7 @@ var db = require("./models");
 
 
 // Creating express app and configuring middleware needed for authentication
-var app = express();
+let app = express();
 
 /* We're setting up our express server to handle two types of requests
 URL Encoded: this is the standard request created when you fill out a form
@@ -21,7 +22,7 @@ JSONL { Name : 'John Smith', Age: 23}
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({
-    extended: false
+    extended: true
 }));
 // parse application/json
 app.use(bodyParser.json());
@@ -53,6 +54,6 @@ var PORT = process.env.PORT || 8080;
 // Syncing our database and logging a message to the user upon success
 db.sequelize.sync().then(function () {
     app.listen(PORT, function () {
-        console.log("\n==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
+        console.log(`\n==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT}/ in your browser.`, PORT, PORT);
     });
 });
