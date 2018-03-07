@@ -222,3 +222,12 @@ BEGIN RESULTS PAGE CSS
         height: 20px;
         position: absolute;
     }
+
+    /* BUNNIES RESULTS */
+
+    #bunniesFluidContainer {
+        position: absolute;
+        background-color: #001a27;
+        padding-top: 80px;
+        padding-bottom: 130px;
+    }
