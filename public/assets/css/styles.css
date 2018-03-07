@@ -123,3 +123,10 @@ option {
     font-weight: 300;
     font-size: 14px;
 }
+#formColumn hr {
+    background-color: #62bb46;
+    height: 2px;
+    width: 200px;
+    border: none;
+    margin: 20px auto;
+}
