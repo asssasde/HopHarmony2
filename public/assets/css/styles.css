@@ -3,141 +3,166 @@
 /*Styles that apply to the entire page*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    COLOR: #001a27;
-}
-
-/* BACKGROUND VIDEO + OVERLAY + TEXT */
-
-#videoOverlay {
-    background: #ffffff;
-    opacity: 0.75;
-    position: absolute;
-    z-index: -50;
-    text-align: center;
-    margin: 0%;
-    height: 100%;
-    width: 100%;
-}
-
-	#backgroundVideo {
-	    position: fixed;
-	    top: 50%;
-	    left: 50%;
-	    min-width: 100%;
-	    min-height: 100%;
-	    width: auto;
-	    height: auto;
-	    z-index: -100;
-	    -webkit-transform: translateX(-50%) translateY(-50%);
-	    transform: translateX(-50%) translateY(-50%);
-	    background: url(../img/backgroundImg01.jpg) no-repeat;
-	    background-size: cover;
+        font-family: 'Montserrat', sans-serif;
+        COLOR: #001a27;
     }
-    
-/* CONTAINERS */
 
-#containerAll {
-    overflow: overlay;
-    margin: 0;
-    padding: 0;
-}
+    /* BACKGROUND VIDEO + OVERLAY + TEXT */
 
-/* MAIN ROW */
+    #videoOverlay {
+        background: #ffffff;
+        opacity: 0.75;
+        position: absolute;
+        z-index: -50;
+        text-align: center;
+        margin: 0%;
+        height: 100%;
+        width: 100%;
+    }
 
-#mainRow {
-    height: 100vh;
-}
+        #backgroundVideo {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            background: url(../img/backgroundImg01.jpg) no-repeat;
+            background-size: cover;
+        }
+        
+    /* CONTAINERS */
 
-/* LOGO COLUMN */
+    #containerAll {
+        overflow: overlay;
+        margin: 0;
+        padding: 0;
+    }
 
-#logoColumn {
-    font-weight: 300;
-    font-size: 16px;
-    margin-top: 40px;
-    margin-bottom: 15px;
-}
-#logoColumn p {
-    margin-bottom: 0;
-}
+    /* MAIN ROW */
 
-#logoColumn hr {
-    background-color: #99928a;
-    height: 5px;
-    border: none;
-    width: 30%;
-    left: -220px;
-    margin: 20px 0;
-}
+    #mainRow {
+        height: 100vh;
+    }
 
-/* FORM COLUMN */
+    /* LOGO COLUMN */
 
-#formColumn {
-    background-color: rgba(153, 146, 137, 0.25);
-    padding: 30px 35px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-#formColumn h1 {
-    font-weight: 900;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #001a27;
-    margin-bottom: 0;
-}
-#formColumn p {
-    line-height: 1.5;
-}
-#formColumn .row {
-    margin-bottom: 4px;
-}
-#formColumn input,
-select,
-option {
-    font-weight: 300;
-    font-size: 12px;
-    height: 40px !important;
-}
-#formColumn button {
-    font-weight: 100;
-    font-size: 15px;
-    letter-spacing: 2px;
-    background-color: #f99d2a;
-    border: none;
-    border-radius: 0;
-    padding: 10px 30px;
-    padding-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 0;
-}
-#formColumn button img {
-    height: 20px;
-    position: absolute;
-}
-#formColumn #languages,
-#activities {
-    height: 44px;
-}
-#formColumn .radio label {
-    font-weight: 300;
-    font-size: 14px;
-}
-#formColumn hr {
-    background-color: #62bb46;
-    height: 2px;
-    width: 200px;
-    border: none;
-    margin: 20px auto;
-}
-#formColumn #customRadios {
-    margin-top: 10px;
-}
-#childrenNo,
-#petNo,
-#smokeNo {
-    margin-left: 20px;
-}
-.photoButton input[type=file i] {
-    line-height: 40px;
-}
+    #logoColumn {
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    #logoColumn p {
+        margin-bottom: 0;
+    }
+
+    #logoColumn hr {
+        background-color: #99928a;
+        height: 5px;
+        border: none;
+        width: 30%;
+        left: -220px;
+        margin: 20px 0;
+    }
+
+    /* FORM COLUMN */
+
+    #formColumn {
+        background-color: rgba(153, 146, 137, 0.25);
+        padding: 30px 35px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #formColumn h1 {
+        font-weight: 900;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #001a27;
+        margin-bottom: 0;
+    }
+    #formColumn p {
+        line-height: 1.5;
+    }
+    #formColumn .row {
+        margin-bottom: 4px;
+    }
+    #formColumn input,
+    select,
+    option {
+        font-weight: 300;
+        font-size: 12px;
+        height: 40px !important;
+    }
+    #formColumn button {
+        font-weight: 100;
+        font-size: 15px;
+        letter-spacing: 2px;
+        background-color: #f99d2a;
+        border: none;
+        border-radius: 0;
+        padding: 10px 30px;
+        padding-right: 50px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    #formColumn button img {
+        height: 20px;
+        position: absolute;
+    }
+    #formColumn #languages,
+    #activities {
+        height: 44px;
+    }
+    #formColumn .radio label {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    #formColumn hr {
+        background-color: #62bb46;
+        height: 2px;
+        width: 200px;
+        border: none;
+        margin: 20px auto;
+    }
+    #formColumn #customRadios {
+        margin-top: 10px;
+    }
+    #childrenNo,
+    #petNo,
+    #smokeNo {
+        margin-left: 20px;
+    }
+    .photoButton input[type=file i] {
+        line-height: 40px;
+    }
+
+
+
+    /* 
+======================
+BEGIN RESULTS PAGE CSS
+======================
+*/
+
+    /* BACKGROUND VIDEO + OVERLAY + TEXT */
+
+    #videoOverlayJumbo {
+        background: #ffffff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.75;
+        z-index: -99;
+        text-align: center;
+        margin: 0%;
+        height: 100%;
+        width: 100%;
+    }
