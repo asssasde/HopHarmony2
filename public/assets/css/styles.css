@@ -86,3 +86,6 @@ body {
     color: #001a27;
     margin-bottom: 0;
 }
+#formColumn p {
+    line-height: 1.5;
+}
