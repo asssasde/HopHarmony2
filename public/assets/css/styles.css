@@ -271,3 +271,9 @@ BEGIN RESULTS PAGE CSS
         padding: 1.25rem;
         padding-top: 4rem;
     }
+    .BunTitles {
+        text-align: center;
+        color: #f99d2a;
+        font-weight: 300;
+        margin-bottom: 36px;
+    }
