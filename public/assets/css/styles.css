@@ -194,3 +194,6 @@ BEGIN RESULTS PAGE CSS
     #jumboContainer {
         z-index: -10;
     }
+    #hopLogo {
+        max-width: 45% !important;
+    }
