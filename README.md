@@ -1,26 +1,6 @@
+# Title:
+
 # HopHarmony
-
-Trilogy Education Services Full-Stack Web Developer Program
-
-University of Miami Cohort - 201710FSF3
-
-
-## Requirements:
-
-* Must use a Node and Express Web Server
-* Must be backed by a MySQL Database with a Sequelize ORM  
-* Must have both GET and POST routes for retrieving and adding new data
-* Must be deployed using Heroku (with Data)
-* Must utilize at least one new library, package, or technology that we haven’t discussed
-* Must have a polished frontend / UI 
-* Must have folder structure that meets MVC Paradigm
-* Must meet good quality coding standards (indentation, scoping, naming)
-
-
----
-
-
-# Project Title:
 
 ![alt text](https://github.com/m-wolowicz/HopHarmony/blob/master/public/assets/img/HopHarmonyRGB.png "HopHarmony Logo")
 
